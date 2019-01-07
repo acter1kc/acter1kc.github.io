@@ -1,0 +1,154 @@
+body {
+ padding: 0px;
+ margin: 0px;
+ font-family: 'Roboto', sans-serif;
+ color: white;
+}
+
+.row {
+    padding-top: 70px;
+}
+/*начало секции head*/
+header {
+    background: url(../img/fon_header.jpg) no-repeat center center /cover;
+    height: 100vh;
+}
+.logo {
+/*    margin-top: 85px;
+    margin-left: 150px;*/
+}
+
+.logo img{
+    height: 110px;
+    width: 110px;
+}
+/*начало верхнего меню*/
+
+.top_menu {
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+.top_menu li {
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+
+.top_menu li a {
+  color: white;
+  padding: 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+.top_menu li a::after {
+    display: block;
+    width: 100%;
+    height:2px;
+    content: '';
+    background-color: yellow;
+    transform: translateY(18px) scale(0);
+    transition: all 0.2s;
+}
+
+.top_menu li a:hover {
+  text-decoration:none;
+}
+
+.top_menu li a:hover::after {
+  transform: translateY(18px) scale(1);
+}
+/*конец верхнего меню*/
+
+.top_description {
+  color: white;
+  text-transform: uppercase;
+}
+
+.top_description h2{
+    font-size: 28px;
+    text-align: center;
+}
+
+.top_description h3{
+    font-size: 20px;
+    text-align: center;
+}
+ /* Кнопка */
+.button {
+   padding: 20px;
+   display: block;
+   color: #fff;
+   border-radius: 5px;
+   text-decoration: none;
+   font-size: 17px;
+   font-weight: 700;
+   border-bottom: 5px solid;
+   background-color: #009adf;
+   margin: 0 auto;
+   text-align:center;
+   width: 240px;
+   margin-top: 50px;
+}
+
+.button:hover {
+  background-color: lighten(#009adf, 5%);
+}
+
+/*начало второй секции*/
+
+section#number2 {
+ background: url(../img/fon2.jpg) no-repeat center center /cover;
+ height: 100vh;
+}
+
+.yellow_title {
+    margin:0 auto;
+    color: #000;
+}
+
+.yellow_block {
+    padding: 20px 0;
+}
+
+.yellow_block h3, p {
+    color: #000;
+    padding: 15px 15px;
+}
+
+/*начало 3 секции*/
+
+section#number3 {
+ background: url(../img/fon3.jpg) no-repeat center center /cover;
+ height: 100vh;
+}
+
+.title_training {
+    color: white;
+    font-size: 35px;
+    text-align:center;
+}
+
+.number2 p{
+    color: white;
+    font-size: 15px;
+}
+
+/*начало 4 секции*/
+section#number4 {
+ background: url(../img/fon2.jpg) no-repeat center center /cover;
+ height: 100vh;
+}
+
+
+
+
+/*начало footer секции*/
+
+section#footer {
+ background: url(../img/footer_new.jpg) no-repeat center center /cover;
+ height: 100vh;
+}
