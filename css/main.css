@@ -105,9 +105,14 @@ section#number2 {
     display: block;
     margin: 0 auto; }
   .couch_description p {
-    font-size: 18px;
+    font-size: 14px;
     color: #000;
     text-align: left; }
+
+.couch_progress {
+  font-size: 14px;
+  color: #000;
+  text-align: left; }
 
 /*начало 3 секции*/
 section#number3 {
@@ -174,16 +179,24 @@ section#number5 {
   margin: 0 auto;
   margin-bottom: 80px;
   font-size: 17px;
-  height: 350px;
-  width: 200px;
+  height: 520px;
+  width: 280px;
   background-color: #009adf;
-  border-radius: 5px; }
+  border-radius: 5px;
+  overflow: auto; }
+  .price_object h3 {
+    text-align: center;
+    font-size: 25px; }
   .price_object img {
     display: block;
     margin: 0 auto;
     padding: 20px; }
+  .price_object ul {
+    margin-right: 5px;
+    margin-left: 5px; }
   .price_object p {
-    text-align: center; }
+    text-align: center;
+    padding: 5px 10px; }
   .price_object_but {
     padding: 10px;
     display: block;
