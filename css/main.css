@@ -18,6 +18,8 @@ header {
 
 .logo {
   width: 100%; }
+  .logo img {
+    max-width: 100%; }
 
 /*начало верхнего меню*/
 .top_menu {
