@@ -17,7 +17,7 @@ header {
   padding-top: 65px; }
 
 .logo {
-  overflow: hidden; }
+  width: 100%; }
 
 /*начало верхнего меню*/
 .top_menu {
@@ -61,7 +61,8 @@ header {
   .top_phone img {
     height: 20px;
     width: 20px; }
-  .top_phone span {
+  .top_phone a {
+    text-decoration: none;
     font-size: 20px;
     text-align: center;
     color: white;
@@ -97,13 +98,15 @@ section#number2 {
   .couch_title {
     text-align: center;
     margin-top: 60px;
-    font-size: 28px;
+    font-size: 20px;
     color: #000; }
-  .couch_picture img {
-    height: 400px;
-    width: 300px;
-    display: block;
-    margin: 0 auto; }
+  .couch_picture {
+    padding-top: 20px; }
+    .couch_picture img {
+      height: 400px;
+      width: 300px;
+      display: block;
+      margin: 0 auto; }
   .couch_description p {
     font-size: 14px;
     color: #000;
@@ -147,16 +150,33 @@ section#number4 {
     margin-top: 50px;
     text-align: center;
     color: #000;
-    font-size: 28px; }
+    font-size: 25px; }
   .schedule_table {
     margin-top: 20px;
     overflow: auto;
     text-align: center;
     padding-bottom: 20px; }
+  .schedule_main {
+    width: 300px;
+    height: 400px;
+    overflow: auto; }
+    .schedule_main h3 {
+      font-size: 23px;
+      color: #000;
+      font-weight: 700; }
+    .schedule_main ul li {
+      text-align: left;
+      line-height: 3;
+      font-size: 20px;
+      color: #000;
+      font-weight: 700; }
   .schedule_description {
     font-size: 12px;
     color: #000;
     font-weight: 700; }
+
+#schedule_main_li {
+  line-height: 2; }
 
 /*начало 5 секции*/
 section#number5 {
