@@ -10,7 +10,7 @@ body {
 
 /*начало секции head*/
 header {
-  background: url(../img/fon_header_new.jpg) no-repeat center center/cover;
+  background: url(../img/fon_header.jpg) no-repeat center center/cover;
   height: 100%; }
 
 .top {
