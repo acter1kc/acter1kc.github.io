@@ -2,7 +2,7 @@
 body {
   padding: 0px;
   margin: 0px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Fira Sans Condensed', sans-serif !important;
   color: white; }
 
 #al_center {
@@ -10,7 +10,7 @@ body {
 
 /*начало секции head*/
 header {
-  background: url(../img/fon_header.jpg) no-repeat center center/cover;
+  background: url(../img/fon_header_new.jpg) no-repeat center center/cover;
   height: 100%; }
 
 .top {
@@ -75,24 +75,29 @@ header {
 .top_description {
   color: white;
   text-transform: uppercase;
-  margin-top: 100px;
+  margin-top: 350px;
    }
   .top_description h2 {
     font-size: 60px;
     text-align: center; }
+
+  .description {
+    display: block;
+    margin: 0 auto; }
 
   .top_description h3 {
     font-size: 20px;
     text-align: center;
      }
      .top_new {
-      margin-top: 350px;
+      margin-top: 200px;
       margin-bottom: 30px;
      }
      .top_new p {
     font-size: 18px;
     text-align: center;
-    background-color: #0097cf;
+    background-color: transparent;
+    /*color: #dec2c5;*/
     border-radius: 7px;
     padding: 7px;
     height: 100%;
@@ -120,8 +125,9 @@ header {
     text-align: center;
     color: white;
     margin-left: 10px;
-    /* Кнопка */ }
+     }
 
+/* Кнопка */
 .button_new {
   padding: 20px;
   display: block;
@@ -136,14 +142,82 @@ header {
   background-color: #009adf;
   text-align: center;
   width: 240px;
-  margin-top: 80px;
+  margin-top: 50px;
   margin-bottom: 80px; }
   .button_new:hover {
     background-color: #00acf9;
     color: #fff;
     text-decoration: none; }
 
-/*начало второй секции*/
+    .header_links {
+      padding-bottom: 50px;
+    }
+
+/*дополнительная 1 секция - video*/
+
+.clearfix:after {
+  content:'';
+  display: table;
+  width: 100%;
+  clear: both;
+}
+
+#video {
+ background-color: #b2b7b5;
+}
+.video {
+  padding-top: 30px;
+}
+.video_container {
+ margin: 0 auto;
+}
+.video__item {
+  width: 270px;
+  float:left;
+  text-align:center;
+}
+.item_img {
+  width: 100px;
+  height: 100px;
+  background-color: #1381d5;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.video__item:last-child {
+  float:right;
+}
+
+.video__item:nth-child(2) {
+   margin-left: 150px;
+}
+
+.video_img {
+  margin: auto;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.video__item h3 {
+  font-size: 18px;
+  margin-bottom:5px;
+  margin-top: 5px;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.video__item p {
+  color: #000;
+  font-size:14px;
+  line-height: 1.4em;
+}
+
+
+/*начало number2 секции*/
 section#number2 {
   background: url(../img/fon2.jpg) no-repeat center center/cover;
   height: 100%;
@@ -422,6 +496,11 @@ section#footer {
       line-height: 32px; }
   .footer-contacts, .footer-social-links {
     text-align: right; }
+
+  .footer-social-description {
+    margin-right: 20px !important;
+     }
+
     .footer-contacts_phone {
       font-weight: 400;
       font-size: 20px;
