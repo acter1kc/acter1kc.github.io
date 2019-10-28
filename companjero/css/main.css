@@ -1,3 +1,5 @@
+/*Theme Name: companjero*/
+
 @charset "UTF-8";
 body {
   padding: 0px;
@@ -260,6 +262,10 @@ section#number3 {
     text-align: center;
     margin-bottom: 50px;
     margin-top: 50px; }
+
+ .item {
+    margin-bottom: 40px;
+   }
 
   .ourtraining_items {
    padding-bottom: 50px;
