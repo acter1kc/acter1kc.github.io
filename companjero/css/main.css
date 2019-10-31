@@ -79,7 +79,7 @@ header {
   color: white;
   text-transform: uppercase;
   margin-top: 80px;
-  margin-bottom: 200px;
+  margin-bottom: 350px;
    }
   .top_description h2 {
     font-size: 60px;
@@ -170,7 +170,7 @@ header {
  background-color: #fff;
 }
 .video {
-  padding-top: 30px;
+  padding-top: 50px;
 }
 .video_container {
  margin: 0 auto;
@@ -207,7 +207,7 @@ header {
 }
 
 .video__item h3 {
-  font-size: 18px;
+  font-size: 19px;
   margin-bottom:5px;
   margin-top: 5px;
   color: #000;
@@ -216,7 +216,7 @@ header {
 
 .video__item p {
   color: #000;
-  font-size:14px;
+  font-size:17px;
   line-height: 1.4em;
 }
 
@@ -244,7 +244,7 @@ section#number2 {
       display: block;
       margin: 0 auto; }
   .couch_description p {
-    font-size: 14px;
+    font-size: 17px;
     color: #000;
     text-align: left; }
 
@@ -253,37 +253,11 @@ section#number2 {
   color: #000;
   text-align: left; }
 
+
+
+
 /*начало 3 секции*/
 section#number3 {
-  background: url(../img/fon_header_new.jpg) no-repeat center center/cover;
-  height: 100%; }
-
-.item {
-    margin-bottom: 40px;
-   }
-
-  .ourtraining_title {
-    color: #fff;
-    font-size: 35px;
-    text-align: center;
-    margin-bottom: 50px;
-    margin-top: 50px; }
-
-  .ourtraining_items {
-   padding-bottom: 50px;
-  }
-  .ourtraining_item {
-    border-color: black;
-    border-width: 5px;
-  }
-  .ourtraining_textdown {
-    color: #2595f9 !important;
-  }
-
-
-
-/*начало 4 секции*/
-section#number4 {
   background: url(../img/fon2.jpg) no-repeat center center/cover;
   height: 100%; }
 
@@ -361,6 +335,37 @@ section#number4 {
       background-color: #0c4a86;
       cursor: pointer; }
 
+/*начало 4 секции*/
+/*url(../img/fon_header_new.jpg) */
+section#number4 {
+  background: no-repeat center center/cover;
+  background-color: #44bbdb;
+  height: 100%; }
+
+.item {
+    margin-bottom: 40px;
+   }
+
+  .ourtraining_title {
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px; }
+
+  .ourtraining_items {
+   padding-bottom: 50px;
+  }
+  .ourtraining_item {
+    border-color: black;
+    border-width: 5px;
+  }
+
+  .ourtraining_textdown {
+    color: #000 !important;
+  }
+
+
 /*начало 5 секции*/
 section#number5 {
   background: url(../img/fon3.jpg) no-repeat center center/cover;
@@ -414,8 +419,10 @@ section#number5 {
   padding: 3em;
 }
 /*начало 6 секции*/
+/*url(../img/fon6.jpg)*/
 section#number6 {
-  background: url(../img/fon6.jpg) no-repeat center center/cover;
+  background: no-repeat center center/cover;
+  background-color: #f9a241;
   height: 100%;
   padding-bottom: 1px; }
 
@@ -574,7 +581,26 @@ section#footer {
 
 
 
-@media (min-width: 481px) and (max-width: 766px) {
+
+
+  @media (min-width: 481px) and (max-width: 575px) {
+
+  .news_card {
+    margin-top: 30px;
+   }
+   .item img {
+    margin-top: 20px;
+   }
+
+  .top_description img {
+    width: 445px;
+    height: 190px;
+   }
+
+
+  }
+
+  @media (min-width: 576px) and (max-width: 766px) {
 
   .news_card {
     margin-top: 30px;
