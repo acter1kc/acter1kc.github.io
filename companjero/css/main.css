@@ -223,7 +223,7 @@ header {
 
 /*начало number2 секции*/
 section#number2 {
-  background: url(../img/fon2.jpg) no-repeat center center/cover;
+  background: url(../img/fon_header4.jpg) no-repeat center center/cover;
   height: 100%;
   padding-bottom: 1px; }
 
@@ -234,7 +234,7 @@ section#number2 {
     margin-top: 60px;
     margin-bottom: 50px;
     font-size: 35px;
-    color: #000; }
+    color: #fff; }
   .couch_picture {
     padding-top: 20px;
     padding-bottom: 40px }
@@ -245,8 +245,17 @@ section#number2 {
       margin: 0 auto; }
   .couch_description p {
     font-size: 17px;
-    color: #000;
+    color: #fff;
     text-align: left; }
+    .onas {
+      font-size: 17px;
+      color: orange;
+    }
+    .onas:hover {
+          text-decoration: none;
+          color: #fff;
+        }
+
 
 .couch_progress {
   font-size: 14px;
@@ -522,7 +531,7 @@ section#footer {
 /* Адаптив для сайта */
 /* Адаптив для сайта */
 
-@media (max-width: 320px) {
+@media (min-width: 1px) and (max-width: 320px) {
 
    .item img {
     margin-top: 20px;
@@ -545,7 +554,7 @@ section#footer {
       }
 
     .video__item:last-child {
-        float: none;
+        float: left;
     }
 
   }
@@ -574,7 +583,7 @@ section#footer {
       }
 
       .video__item:last-child {
-        float: none;
+        float: left;
     }
 
   }
