@@ -12,7 +12,7 @@ body {
 
 /*начало секции head*/
 header {
-  background: url(../img/fon_header33.jpg) no-repeat center center/cover;
+  background: url(../img/fon_header3.jpg) no-repeat center center/cover;
   height: 100%; }
 
 .top {
@@ -78,7 +78,7 @@ header {
 .top_description {
   color: white;
   text-transform: uppercase;
-  margin-top: 50px;
+  margin-top: 80px;
   margin-bottom: 350px;
    }
   .top_description h2 {
@@ -154,7 +154,7 @@ header {
     text-decoration: none; }
 
     .header_links {
-      padding-bottom: 10px;
+      padding-bottom: 50px;
     }
 
 /*дополнительная 1 секция - video*/
@@ -167,7 +167,7 @@ header {
 }
 
 #video {
- background-color: #faa241;
+ background-color: #fff;
 }
 .video {
   padding-top: 50px;
@@ -249,6 +249,7 @@ section#number2 {
     text-align: left; }
     .onas {
       font-size: 17px;
+      color: orange;
     }
     .onas:hover {
           text-decoration: none;
@@ -430,7 +431,7 @@ section#number5 {
 /*url(../img/fon6.jpg)*/
 section#number6 {
   background: no-repeat center center/cover;
-  background-color: #faa241;
+  background-color: #f9a241;
   height: 100%;
   padding-bottom: 1px; }
 
