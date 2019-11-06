@@ -15,8 +15,9 @@ header {
   background: url(../img/fon_header33.jpg) no-repeat center center/cover;
   height: 100%; }
 
-.top {
-  /*padding-top: 65px;*/ }
+/*.top {
+  border-bottom: 5px solid orange; }*/
+
 .mtop20 {
   margin-top: 20px;
 }
@@ -30,6 +31,7 @@ header {
 /* ****************Навигация***************** */
 .navbar {
   background: #44bbdb;
+  border-bottom: 4px solid #faa241;
 }
 .nav-link, .navbar-brand {
  color: #f4f4f4;
@@ -78,7 +80,7 @@ header {
 .top_description {
   color: white;
   text-transform: uppercase;
-  margin-top: 50px;
+  margin-top: 60px;
   margin-bottom: 350px;
    }
   .top_description h2 {
