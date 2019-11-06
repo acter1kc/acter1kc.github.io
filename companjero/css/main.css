@@ -224,8 +224,10 @@ header {
 
 
 /*начало number2 секции*/
+/*url(../img/fon_header4.jpg)*/
 section#number2 {
-  background: url(../img/fon_header4.jpg) no-repeat center center/cover;
+  background: no-repeat center center/cover;
+  background-color: #44bbdb;
   height: 100%;
   padding-bottom: 1px; }
 
@@ -251,6 +253,7 @@ section#number2 {
     text-align: left; }
     .onas {
       font-size: 17px;
+      color: #1d2391;
     }
     .onas:hover {
           text-decoration: none;
@@ -301,7 +304,7 @@ section#number3 {
   display: block;
   margin: 0 auto;
   margin-bottom: 80px;
-  font-size: 12px;
+  font-size: 14px;
   vertical-align: middle;
   height: 520px;
   width: 320px;
@@ -633,6 +636,7 @@ section#footer {
   .price_object {
     height: 560px;
     width: 250px;
+    font-size: 12px;
   }
 
   .carousel {
