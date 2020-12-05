@@ -1,0 +1,76 @@
+Можно так - при наведении на картинку (без нажатия) появляется
+другая картинка.
+И для этого не нужно загружать в каталог сайта два одинаковых изображения,
+о разные по размеру (типо маленькое и большое).
+Загружаете только одно изображение и при ссылке на него указываете
+размер в пикселях.
+Для этого необходимо
+
+в коде странички между тегами <head> </head>
+
+    Вставить это
+
+<style type="text/css">
+.thumbnail{
+position: relative;
+z-index: 0;
+}
+.thumbnail:hover{
+background-color: transparent;
+z-index: 50;
+}
+.thumbnail span{ /*CSS for enlarged image*/
+position: absolute;
+background-color: #3d3d3d;
+padding: 5px;
+left: -1000px;
+border: 1px solid white;
+visibility: hidden;
+color: Yellow;
+text-decoration: none;
+border-radius: 4px 4px 4px 4px;
+-moz-border-radius: 4px 4px 4px 4px;
+-webkit-border-radius: 4px 4px 4px 4px;
+}
+.thumbnail span img{ /*CSS for enlarged image*/
+border-width: 0;
+padding: 2px;
+}
+.thumbnail:hover span{ /*CSS for enlarged image on hover*/
+visibility: visible;
+top: 0;
+left: 60px; /*position where enlarged image should offset horizontally */
+}
+</style>
+
+А далее путь к изображению...
+
+<a class="thumbnail" href="#">
+<img style="width: 217px; height: 313px;"
+src="путь к изображению к маленькому">
+<span>Описание изображения
+<img  style="width: 554px; height: 800px;"
+src="путь к изображению к большому"></span></a>
+
+Размер изображения регулируется параметрами width и height,
+а по сути путь к изображению ведет на один и тот же файл.
+----------------------
+2. Вариант.
+При нажатие на изображение открывается новое окно
+с полным размером изображения.
+Для этого нужно
+
+<a href="путь к файлу реального размера изображения" target="_blank">
+<img style="border: 0px solid ; width: 224px; height: 323px;"
+alt="" src="путь к файлу того же реального размера изображения"></a>
+
+Разберем пример по кусочкам:
+target="_blank" - это функция открытия изображения в новом окне.
+Это может быть так же любая другая ссылка, не обязательно это
+должно быть изображение.
+img style="border: 0px solid ; width: 224px; height: 323px;" - параметрами
+width и height , вы регулируете  большое изображение в маленькое,
+т.е. в каталог вы загружаете реально большое изображение,
+но указав параметры к примеру как в примере 224 и 323 код сожмет его
+до заданных размеров, а при открытии нового окна
+- оно откроется в истинных размерах.
